@@ -11,7 +11,7 @@ from botocore.vendored import requests
 s3 = boto3.client('s3')
 tests3 = boto3.resource(u's3')
 
-# insert_data function for inserting data into dynamodb table
+# insert_data function for creating a Zendesk ticket from the data
 def insert_data(recList):
     
     for i in range(len(recList)):
