@@ -6,6 +6,7 @@ fork of: [https://gist.github.com/ninajlu/d0b939ee34257fe2b21ae935321895d3](http
 Create SES Ruleset to [deliver incoming email to an S3 bucket ](https://docs.aws.amazon.com/ses/latest/dg/receiving-email-action-s3.html)
 
 Create Lambda trigger
-![image](https://github.com/cloud-aware/SEStoZendesk/assets/38328249/7fbdcdc3-0dc9-4951-bce9-c23774401ad2)
+![image](https://github.com/cloud-aware/SEStoZendesk/assets/38328249/e61a2907-668c-4502-9987-1cf1a514f27d)
 
 Make sure the Lambda function has permissions to the proper KMS key holding the zendesk token, & the S3 bucket where SES stores the email
+
